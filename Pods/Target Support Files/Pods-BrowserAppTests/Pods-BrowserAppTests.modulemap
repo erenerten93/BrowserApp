@@ -1,0 +1,6 @@
+framework module Pods_BrowserAppTests {
+  umbrella header "Pods-BrowserAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
