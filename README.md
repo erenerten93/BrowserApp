@@ -1,4 +1,4 @@
-# BrowserAppBrowserApp 🌐
+# BrowserApp 🌐
 
 <div style="display: flex; justify-content: space-between;">
   <img src="https://github.com/erenerten93/BrowserApp/blob/main/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202023-07-19%20at%2009.46.36.png" alt="ScreenShot1" width="200" height="350">
