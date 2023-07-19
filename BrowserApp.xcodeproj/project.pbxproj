@@ -26,6 +26,7 @@
 		3B568ECA2A66D4E900C84D25 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B568EC82A66D4E900C84D25 /* Factory.swift */; };
 		3B8CE4EF2A67D1A000B090BD /* FactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8CE4EE2A67D1A000B090BD /* FactoryTests.swift */; };
 		3B8CE4F12A67D25B00B090BD /* MainViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8CE4F02A67D25B00B090BD /* MainViewModelTests.swift */; };
+		3B8CE4F52A67D80200B090BD /* BrowserLib in Frameworks */ = {isa = PBXBuildFile; productRef = 3B8CE4F42A67D80200B090BD /* BrowserLib */; };
 		B5E384F331F97CCFB417EC99 /* Pods_BrowserApp_BrowserAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5CF72F34411F90E28C9F79 /* Pods_BrowserApp_BrowserAppUITests.framework */; };
 		FC1DB997FBA03E3D73F02869 /* Pods_BrowserApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DB092B126E2C951A3724BA /* Pods_BrowserApp.framework */; };
 /* End PBXBuildFile section */
@@ -62,7 +63,6 @@
 		3B568EA82A66A85800C84D25 /* BrowserAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrowserAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B568EAC2A66A85800C84D25 /* BrowserAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserAppUITests.swift; sourceTree = "<group>"; };
 		3B568EAE2A66A85800C84D25 /* BrowserAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		3B568EBB2A66A87500C84D25 /* BrowserLib */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = BrowserLib; path = ../BrowserLib; sourceTree = "<group>"; };
 		3B568EBF2A66CA0E00C84D25 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		3B568EC22A66CABE00C84D25 /* OrganizationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationModel.swift; sourceTree = "<group>"; };
 		3B568EC52A66D2FB00C84D25 /* OrganizationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationCell.swift; sourceTree = "<group>"; };
@@ -83,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B8CE4F52A67D80200B090BD /* BrowserLib in Frameworks */,
 				3B568EBE2A66A90300C84D25 /* BrowserLib in Frameworks */,
 				FC1DB997FBA03E3D73F02869 /* Pods_BrowserApp.framework in Frameworks */,
 			);
@@ -110,7 +111,6 @@
 		3B568E7F2A66A85600C84D25 = {
 			isa = PBXGroup;
 			children = (
-				3B568EBB2A66A87500C84D25 /* BrowserLib */,
 				3B568E8A2A66A85600C84D25 /* BrowserApp */,
 				3B568EA12A66A85800C84D25 /* BrowserAppTests */,
 				3B568EAB2A66A85800C84D25 /* BrowserAppUITests */,
@@ -249,6 +249,7 @@
 			name = BrowserApp;
 			packageProductDependencies = (
 				3B568EBD2A66A90300C84D25 /* BrowserLib */,
+				3B8CE4F42A67D80200B090BD /* BrowserLib */,
 			);
 			productName = BrowserApp;
 			productReference = 3B568E882A66A85600C84D25 /* BrowserApp.app */;
@@ -325,6 +326,9 @@
 				Base,
 			);
 			mainGroup = 3B568E7F2A66A85600C84D25;
+			packageReferences = (
+				3B8CE4F32A67D80200B090BD /* XCRemoteSwiftPackageReference "BrowserLib" */,
+			);
 			productRefGroup = 3B568E892A66A85600C84D25 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -820,9 +824,25 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		3B8CE4F32A67D80200B090BD /* XCRemoteSwiftPackageReference "BrowserLib" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/erenerten93/BrowserLib";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		3B568EBD2A66A90300C84D25 /* BrowserLib */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = BrowserLib;
+		};
+		3B8CE4F42A67D80200B090BD /* BrowserLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B8CE4F32A67D80200B090BD /* XCRemoteSwiftPackageReference "BrowserLib" */;
 			productName = BrowserLib;
 		};
 /* End XCSwiftPackageProductDependency section */
