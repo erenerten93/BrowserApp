@@ -1,7 +1,7 @@
 # BrowserAppBrowserApp 🌐
-<img src="https://github.com/erenerten93/BrowserApp/blob/main/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202023-07-19%20at%2009.46.36.png" alt="ScreenShot" width="200" height="150">
+<img src="https://github.com/erenerten93/BrowserApp/blob/main/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202023-07-19%20at%2009.46.36.png" alt="ScreenShot1" width="200" height="350">
 
-
+<img src="https://github.com/erenerten93/BrowserApp/blob/main/Simulator%20Screen%20Shot%20-%20iPhone%2011%20-%202023-07-19%20at%2009.46.42.png" alt="ScreenShot2" width="200" height="350">
 
 BrowserApp is a Swift-based iOS app that allows users to browse and explore GitHub organizations. With a clean and user-friendly interface.
 Features:
