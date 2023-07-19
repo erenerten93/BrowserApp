@@ -3,4 +3,70 @@
    uuid = "8817C5D3-90E5-4B00-835B-D28C207D2DBD"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "55BD79AC-090B-4C1C-A857-2085F4698F5C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BrowserAppTests/MainViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "testAddToFavorites()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F04D3956-F2CF-4388-9B47-10DA7E62ACA6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BrowserApp/ViewModels/MainViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "rowFavoriteToggled(indexOfRow:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F04D3956-F2CF-4388-9B47-10DA7E62ACA6 - 68917645359fbca0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BrowserApp.MainViewModel.rowFavoriteToggled(indexOfRow: Swift.Int) -&gt; ()"
+                  moduleName = "BrowserApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erenerten/Desktop/ios-development/BrowserApp/BrowserApp/ViewModels/MainViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "333">
+               </Location>
+               <Location
+                  uuid = "F04D3956-F2CF-4388-9B47-10DA7E62ACA6 - a2889fbc23a414e0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BrowserAppTests.MainViewModel.rowFavoriteToggled(indexOfRow: Swift.Int) -&gt; ()"
+                  moduleName = "BrowserAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/erenerten/Desktop/ios-development/BrowserApp/BrowserApp/ViewModels/MainViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "333">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

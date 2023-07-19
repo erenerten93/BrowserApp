@@ -18,9 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         lazy var mainNavigationController: UINavigationController = {
               let viewController = MainViewController()
-              let mainItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house"), tag: 0)
               let navControl =  UINavigationController(rootViewController: viewController)
-              navControl.tabBarItem = mainItem
               return navControl
           }()
         

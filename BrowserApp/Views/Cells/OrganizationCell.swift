@@ -31,14 +31,15 @@ class OrganizationListTableViewCell: UITableViewCell {
     
     func assignValues(organization:OrganizationModel)
     {
-        avatarImageView.kf.setImage(with: organization.avatarURL)
+       
         self.loginNameLabel.text = organization.loginName
         self.starImageView.image = organization.isFavorite ? UIImage(systemName: "star.fill"):UIImage(systemName: "star")
-
+        avatarImageView.kf.setImage(with: organization.avatarURL)
     }
     func setupViews() {
         mainStackView = makeStackView(withOrientation: .horizontal, distribution: .fill)
         self.addSubview(mainStackView)
+        
         NSLayoutConstraint.activate([
             mainStackView.heightAnchor.constraint(equalTo: super.heightAnchor),
             mainStackView.widthAnchor.constraint(equalTo: super.widthAnchor),
@@ -58,13 +59,8 @@ class OrganizationListTableViewCell: UITableViewCell {
         mainStackView.addArrangedSubview(loginNameLabel)
         mainStackView.addArrangedSubview(starImageView)
         
-        // Set fixed width and height constraints for the avatarImageView (100x100)
-
-        
-        // Allow the other labels to adjust their heights dynamically based on the cell's size
         loginNameLabel.setContentHuggingPriority(.required, for: .vertical)
-
-        // Increase the content compression resistance priority for the UIImageView
+        
         avatarImageView.setContentCompressionResistancePriority(.required, for: .vertical)
         starImageView.setContentCompressionResistancePriority(.required, for: .vertical)
     }
